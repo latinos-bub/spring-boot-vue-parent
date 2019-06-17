@@ -10,7 +10,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <artifactId>mall-admin-api</artifactId>
-    <packaging>war</packaging>
+    <packaging>jar</packaging>
 
     <name>mall-admin-api Maven Webapp</name>
     <!-- FIXME change it to the project's website -->
@@ -24,10 +24,23 @@
 
     <dependencies>
         <dependency>
-            <groupId>junit</groupId>
-            <artifactId>junit</artifactId>
-            <version>4.11</version>
-            <scope>test</scope>
+            <groupId>com.yooy</groupId>
+            <artifactId>mall-core</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>com.yooy</groupId>
+            <artifactId>mall-db</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>com.github.binarywang</groupId>
+            <artifactId>weixin-java-miniapp</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>org.apache.shiro</groupId>
+            <artifactId>shiro-spring-boot-web-starter</artifactId>
         </dependency>
     </dependencies>
 
