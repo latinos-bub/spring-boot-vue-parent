@@ -1,0 +1,6 @@
+/.idea
+spring-boot-vue-parent.iml
+target/
+private/
+storage/
+*.iml
